@@ -1,0 +1,17 @@
+server:
+  host: "localhost"
+  port: 8080
+  enabled: true
+database:
+  type: "mysql"
+  host: "db.example.com"
+  username: "admin"
+  password: "secret"
+  timeout: 30
+users:
+  - name: "Alice"
+    role: "admin"
+    active: true
+  - name: "Bob"
+    role: "user"
+    active: false
